@@ -12,6 +12,10 @@ var fiveAdditionalLanguage = document.getElementById(
   "five-additional-language"
 );
 
+var totalAmount = document.getElementById(
+  "total-amount"
+);
+
 subscriptionRadio.addEventListener("click", function () {
   updateTotalAmount();
 });
